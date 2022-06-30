@@ -1,0 +1,125 @@
+n<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      body{
+        margin:0px;
+        padding:0px;
+        background:black;
+      }
+
+      h1{
+        font-family:'monospace';
+        font-size:50px;
+        text-align:center;
+        color:white;
+        margin-top:10px;
+        margin-bottom:20px;
+      }
+
+      .b1{
+        width:200px;
+        height:200px;
+        background:green;
+        display:block;
+        margin-bottom:20px;
+        animation:box1;
+        animation-duration:4s;
+        animation-timing-function:ease-in-out;
+        animation-iteration-count:1;
+        animation-direction:alternate;
+        text-align:center;
+        line-height:200px;
+        font-family:'monospace';
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        -webkit-animation-fill-mode: forwards;
+      }
+       @keyframes box1{
+         0%{width:200px; background:green}
+         100%{width:90%; background:lightgreen}
+       }
+      .b2{
+        width:200px;
+        height:200px;
+        background:blue;
+        display:block;
+        margin-bottom:20px;
+        animation:box2;
+        animation-duration:4s;
+        animation-timing-function:ease-in-out;
+        animation-iteration-count:1;
+        animation-direction:alternate;
+        text-align:center;
+        line-height:200px;
+        font-family:'monospace';
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        -webkit-animation-fill-mode: forwards;
+      }
+      @keyframes box2 {
+        0%{width:200px; background:blue}
+        100%{width:90%; background:mediumpurple}
+      }
+      .b3{
+        width:200px;
+        height:200px;
+        background:red;
+        display:block;
+        margin-bottom:20px;
+        animation:box3;
+        animation-duration:4s;
+        animation-timing-function:ease-in-out;
+        animation-iteration-count:1;
+        animation-direction:alternate;
+        text-align:center;
+        line-height:200px;
+        font-family:'monospace';
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        -webkit-animation-fill-mode: forwards;
+      }
+      @keyframes box3 {
+        0%{width:200px; background:red}
+        100%{width:80%; background:pink}
+      }
+
+      .b4{
+        width:250px;
+        height:200px;
+        background:red;
+        display:block;
+        animation:box4;
+        animation-duration:4s;
+        animation-timing-function:ease-in-out;
+        animation-iteration-count:1;
+        animation-direction:alternate;
+        line-height:200px;
+        font-family:'monospace';
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+        -webkit-animation-fill-mode: forwards;
+      }
+      @keyframes box4 {
+        0%{width:330px; background:yellow; text-align:center;}
+        50%{text-align:center;}
+        100%{width:90%; background:orange; text-align:center;}
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MY SKILLS</h1>
+    <div class="b1">HTML-5</div>
+    <div class="b2">CSS-3</div>
+    <div class="b3">PYTHON</div>
+    <div class="b4">BOOTSTRAP-4</div>
+  </body>
+</html>

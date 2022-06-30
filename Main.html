@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300;400;500&family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&family=Roboto+Mono:wght@100;300;400;500;600&family=Source+Code+Pro:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style media="screen">
+      body{
+        font-family: 'Anton', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Source Code Pro', monospace;
+        margin:0px;
+        padding:0px;
+        overflow:auto;
+      }
+      .header{
+        width:100%;
+        height:300px;
+        background:linear-gradient(to right, black,blue)
+
+
+      }
+      h1,h2{
+        color:white;
+        letter-spacing:3px;
+        display:inline-block;
+        margin-left:30px;
+        line-height:20px;
+        }
+      h1{
+        margin-left:80px;
+      }
+
+      .img1{
+        width:300px;
+        height:290px;
+        border-radius:50%;
+        float:right;
+        display:inline-block;
+        margin-top:-210px;
+        border:2px solid black;
+        margin-right:10px;
+
+      }
+      button{
+        margin-left:30px;
+        width:150px;
+        font-size:20px;
+        background:white;
+        border:2px solid white;
+        border-radius:25px;
+        padding:8px;
+        margin-top:15px;
+        transition:background, color, border 0.6s,0.6s, 0.6s;
+        outline: none;
+      }
+      button:hover{
+        background:blue;
+        color:white;
+        border:3px solid white;
+      }
+     .content{
+       width:100%;
+       height:680px;
+     }
+     .ch1{
+      Color:blue;
+      font-size:45px;
+      width:100%;
+      text-align:center;
+      margin-top:-5px;
+     }
+     .card{
+       width:800px;
+       height:400px;
+       posittion:absolute;
+       margin-left:600px;
+       margin-top:100px;
+       perspective:500px;
+
+     }
+     .content{
+       width:100%;
+       height:100%;
+       position:absolute;
+       transform-style:preserve-3d;
+       transition:transform 1s;
+     }
+     .card:hover .content{
+       transform:rotateX(180deg);
+     }
+
+     .front,.Back{
+       width:100%;
+       height:100%;
+       position: absolute;
+       font-size:20px;
+       text-align:center;
+       line-height:30px;
+       backface-visibility:hidden;
+       border-radius:20px;
+       background:#fff;
+       color:tomato;
+     }
+     .front{
+       font-size:30px;
+       line-height: 320px;
+       font-size: 80px;
+       color:blue;
+     }
+     .Back{
+       background:tomato;
+       color:#fff;
+       transform:rotateX(180deg);
+       color:white;
+       background: linear-gradient(to right, black,blue);
+     }
+
+     .c2{
+       width:800px;
+       height:400px;
+       position:absolute;
+       margin-left:600px;
+       margin-top:15px;
+       perspective:500px;
+     }
+     .con2{
+       width:100%;
+       height:100%;
+       position:absolute;
+       transform-style:preserve-3d;
+       transition:transform 1s;
+     }
+     .c2:hover .con2{
+       transform:rotateX(180deg);
+     }
+     .f,.b{
+       width:100%;
+       height:100%
+       position:absolute;
+       backface-visibility:hidden;
+       text-align: center;
+     }
+     .b td{
+       text-align: center;
+       font-size: 25px;
+       padding: 3px;
+
+     }
+     .b th{
+       font-size: 30px;
+       background-color:blue;
+     }
+     .b table{
+       margin: auto;
+       width:100%;
+       height:100%
+       border-bottom:3px solid blue;
+       border-collapse:collapse;
+     }
+     tr:nth-child(even){
+       background:#f2f2f2;
+     }
+     .f{
+       font-size:30px;
+       line-height: 320px;
+       font-size: 80px;
+       color:blue;
+       position:absolute;
+     }
+     .b{
+        transform:rotateX(180deg);
+        position:absolute;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Hello My Name</h2> <br>
+      <h1>MUHAMMAD SHAKIR</h1> <br>
+      <h2>Web Developer</h2> <br>
+      <button type="button" name="button">CV</button>
+      <button type="button" name="button">ABOUT</button>
+      <img src="images/pp.jpeg" alt="" class="img1">
+      </div>
+
+      <div class="card">
+        <div class="content">
+          <div class="front">About Me</div>
+          <div class="Back">
+            <p>&#128075; Hi this Muhammad Shakir, <br>
+                &#128218; Im studying BS-Software Engineering at SMI University. <br>
+               &#128187; Also i'm a Full-Stack developer and have good commands on the tools and technologies related to web development.<br>
+               &#127942; I'm a good communicator and done certification courses about Communication Skills and presentation Skils, Attitude Managemnt and so on.<br>
+               &#128081; Every day of my life i learn something new and creative that make's me different from othres.<br>
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="c2">
+        <div class="con2">
+          <div class="f">Skills</div>
+          <div class="b">
+             <table>
+               <th>S.No</th>
+               <th>Skills</th>
+               <th>Level</th>
+               <tr>
+                 <td>1</td>
+                 <td>HTML</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>2</td>
+                 <td>CSS</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>3</td>
+                 <td>BOOTSTRAP</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>4</td>
+                 <td>JQUERY</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>5</td>
+                 <td>JS</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>6</td>
+                 <td>PYTHON</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>7</td>
+                 <td>C & P SKILLS</td>
+                 <td>level-5</td>
+               </tr>
+               <tr>
+                 <td>8</td>
+                 <td>ATTITUDE MANAGEMENT</td>
+                 <td>level-5</td>
+               </tr>
+             </table>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300;400;500&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&family=Roboto+Mono:wght@100;300;400;500;600&family=Source+Code+Pro:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Anton", sans-serif;
+        font-family: "Comfortaa", cursive;
+        font-family: "Nunito", sans-serif;
+        font-family: "Open Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto Mono", monospace;
+        font-family: "Source Code Pro", monospace;
+      }
+      div {
+        margin: auto;
+        background: #f1f1f1;
+        width: 700px;
+        height: 400px;
+        margin-top: 5%;
+        box-shadow:0px 5px 5px 5px lightgrey;
+      }
+      form {
+        text-align: center;
+        padding-top: 5%;
+      }
+      #fname {
+        margin-bottom: 25px;
+        margin-top: 30px;
+        width:70%;
+        padding:10px;
+        color: white;
+        transition: border 0.4s;
+       
+      }
+      #fname:hover{
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 2px solid orange;
+      }
+      #fname:focus{
+          outline: none;
+      }
+      #lname {
+        margin-bottom: 25px;
+        width:70%;
+        padding:10px;
+
+      }
+      #pass {
+        margin-bottom: 25px;
+        width:70%;
+        padding:10px;
+      }
+      button{
+        margin-top: 40px;
+        width:90%;
+        padding: 15px;
+        font-size: 25px;
+        background-color:white;
+        color:black;
+        font-weight: 900;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form action="submit">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" placeholder="first name" maxlength="10" required /> <br />
+        <label for="lname">last name</label>
+        <input type="text" id="lname" placeholder="last name" maxlength="10" required /> <br />
+        <label for="pass">Passward</label>
+        <input type="password" id="pass" placeholder="password" maxlength="15" required /> <br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

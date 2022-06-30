@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      h1{
+        font-family:'Ubuntu',monospace;
+        font-size:40px;
+        text-align:center;
+      }
+      .m1{
+        width:300px;
+        height:300px;
+        background:grey;
+        margin-left:30px;
+        margin-right:20px;
+        display:inline-block;
+
+      }
+      .b1{
+        width:300px;
+        height:300px;
+        background:pink;
+        transition:transform 1s;
+        font-family:'Ubuntu',monospace;
+        text-align:center;
+        font-size:30px;
+      }
+      .b1:hover{
+        transform:rotateX(180deg);
+      }
+      .m2{
+        width:300px;
+        height:300px;
+        background:grey;
+        margin-left:30px;
+        margin-top:40px;
+        display:inline-block;
+
+      }
+      #b2{
+        width:300px;
+        height:300px;
+        background:pink;
+        transition:transform 1s;
+        font-family:'Ubuntu',monospace;
+        text-align:center;
+        font-size:30px;
+      }
+      #b2:hover{
+      transform:perspective(800px) rotateX(180deg);
+    }
+
+    .m3{
+      width:300px;
+      height:300px;
+      background:grey;
+      margin-left:30px;
+     display:inline-block;
+    }
+    .b3{
+      background:pink;
+      width:300px;
+      height:300px;
+      font-family:'Ubuntu';
+      font-size:30px;
+      text-align:center;
+      transition:transform 1s;
+    }
+    .b3:hover{
+      transform:perspective(800px) rotateZ(90deg);
+    }
+
+    .m4{
+      width:300px;
+      height:300px;
+      background:grey;
+      margin-left:30px;
+      display:inline-block;
+    }
+    .b4{
+      width:300px;
+      height:300px;
+      background:pink;
+      transition:transform 1s;
+      font-family:'Ubuntu',monospace;
+      text-align:center;
+      font-size:30px;
+    }
+    .b4:hover{
+      transform:perspective(1000px) rotateY(40deg) translateZ(200px);
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Transform 3D in CSS...!!!</h1>
+    <div class="m1">
+      <div class="b1">
+        Im Rotate 3D
+      </div>
+    </div>
+
+    <div class="m2">
+      <div id="b2">
+        Im RotateX-perspective
+      </div>
+    </div>
+
+    <div class="m3">
+      <div class="b3">
+        Im RotateZ-perspective
+      </div>
+    </div>
+
+    <div class="m4">
+      <div class="b4">
+        Im translate-Z
+      </div>
+    </div>
+  </body>
+</html>

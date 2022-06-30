@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{
+        background:black;
+      }
+      h1{
+        font-family:'monospace';
+        font-size:40px;
+        text-align:center;
+        color:white;
+      }
+      .b1,.b2,.b3{
+        width:400px;
+        height:400px;
+        display:inline-block;
+        padding:10px;
+        font-family:'monospace';
+      }
+      .b1{
+        margin-left:120px;
+        margin-right:80px;
+        border:30px solid black;
+        border-image-slice: 42 42 42 42;
+        border-image-width: 42px 42px 42px 42px;
+        border-image-outset: 0px 0px 0px 0px;
+        border-image-repeat: round;
+        border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+        border-style: solid;
+        color:white;
+      }
+      .b2{
+        margin-right:80px;
+        border:20px solid black;
+        border-image-slice: 13 13 13 13;
+        border-image-width: 13px 13px 13px 13px;
+        border-image-outset: 13px 13px 13px 13px;
+        border-image-repeat: repeat repeat;
+        border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-4.png");
+        border-style: solid;
+        color:white;
+      }
+      .b3{
+        border:20px solid;
+        border-image-slice: 13 27 13 27;
+        border-image-width: 20px 20px 20px 20px;
+        border-image-outset: 0px 0px 0px 0px;
+        border-image-repeat: stretch stretch;
+        border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-1.png");
+        border-style: solid;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Border-iamge in CSS...!!!</h1>
+    <div class="b1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="b2">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="b3">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </body>
+</html>

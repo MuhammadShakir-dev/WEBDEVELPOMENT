@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      h1{
+        font-family:'Roboto',monospace;
+        font-size:30px;
+        text-align:center;
+      }
+
+      .b1{
+        width:300px;
+        height:300px;
+        border:1px solid;
+        font-family:'Roboto',monospace;
+        font-size:30px;
+        text-align:center;
+        background:linear-gradient(to top, black,grey,black);
+        color:white;
+        transition:transform 0.6s;
+        margin-left:40px;
+        display:inline-block;
+        margin-right:30px;
+      }
+
+      .b1:hover{
+          Transform:rotate(30deg);
+      }
+
+      .b2{
+        width:300px;
+        height:300px;
+        border:1px solid;
+        font-family:'Roboto',monospace;
+        font-size:30px;
+        text-align:center;
+        background:linear-gradient(to top, black,purple,black);
+        color:white;
+        display:inline-block;
+       transition:transform 0.6s;
+       margin-right:30px;
+
+
+      }
+      .b2:hover{
+          transform:skew(-10deg,-10deg);
+      }
+
+      .b3{
+        width:300px;
+        height:300px;
+        border:1px solid;
+        font-family:'Roboto',monospace;
+        font-size:30px;
+        text-align:center;
+        background:linear-gradient(to top, black,blue,black);
+        color:white;
+        display:inline-block;
+        transition:transform 1s;
+        transform:rotate(0deg);
+        transform-orign:;
+         margin-right:30px;
+              }
+      .b3:hover{
+        transform:rotate(90deg);
+         transform-origin:left bottom;
+      }
+
+      .b4{
+        width:300px;
+        height:300px;
+        border:1px solid;
+        font-family:'Roboto',monospace;
+        font-size:30px;
+        text-align:center;
+        background:linear-gradient(to top, black,lightgreen,black);
+        color:white;
+        display:inline-block;
+        transform:translate(0px, 0px);
+        transition:transform 0.6s;
+      }
+      .b4:hover{
+        transform:translate(50px, 50px);
+      }
+
+      .b5{
+        width:300px;
+        height:300px;
+        border:1px solid;
+        font-family:'Roboto',monospace;
+        font-size:30px;
+        text-align:center;
+        background:linear-gradient(to top, black,red,black);
+        color:white;
+        transition:transform 1s;
+        transform:scale(1);
+        margin-top:80px;
+        margin-left:40px;
+      }
+      .b5:hover{
+          transform:scale(1.5);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transform 2-D in CSS...!!!</h1>
+    <div class="b1">
+      Im Rotate
+    </div>
+    <div class="b2">
+      Im Skew
+    </div>
+    <div class="b3">
+      Im  Orign
+    </div>
+   <div class="b4">
+     Im translate
+   </div>
+   <div class="b5">
+     Im Scale
+   </div>
+  </body>
+</html>

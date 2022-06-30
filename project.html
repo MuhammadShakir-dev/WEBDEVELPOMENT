@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300;400;500&family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&family=Roboto+Mono:wght@100;300;400;500;600&family=Source+Code+Pro:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style media="screen">
+      body {
+        padding: 0px;
+        margin: 0px;
+        background: black;
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-family: "Comfortaa", cursive;
+        font-family: "Nunito", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto Mono", monospace;
+        font-family: "Source Code Pro", monospace;
+        overflow: hidden;
+      }
+      .b1 {
+        width: 500px;
+        height: 600px;
+        margin: auto;
+        border: 2px solid orange;
+        box-sizing: border-box;
+        margin-top: 20px;
+        transition: border 0.4s;
+      }
+      .b1:hover {
+        border-color: white;
+      }
+
+      h1 {
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center;
+        letter-spacing: 5px;
+      }
+      input {
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        background: black;
+        line-height: 50px;
+        width: 400px;
+        border-bottom: 3px solid orange;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        color: white;
+        transition: border 0.5s;
+        font-family: "Anton", sans-serif;
+        font-family: "Comfortaa", cursive;
+        font-family: "Nunito", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto Mono", monospace;
+        font-family: "Source Code Pro", monospace;
+      }
+      input:focus {
+        outline: none !important;
+      }
+      input:hover {
+        border-bottom: 3px solid white;
+      }
+      button {
+        width: 400px;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 30px;
+        padding: 15px;
+        border: 2px solid orange;
+        color: white;
+        background: black;
+        transition: border 0.4s;
+        letter-spacing: 5px;
+        font-weight: bold;
+      }
+      button:hover {
+        border: 2px solid white;
+        color: orange;
+        cursor: pointer;
+      }
+      p {
+        width: 400px;
+        display: block;
+        margin: auto;
+        margin-top: 60px;
+        font-size: 20px;
+      }
+      ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: white;
+        font-family: "Anton", sans-serif;
+        font-family: "Comfortaa", cursive;
+        font-family: "Nunito", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto Mono", monospace;
+        font-family: "Source Code Pro", monospace;
+      }
+      #em {
+        margin-bottom: 40px;
+        margin-top: 50px;
+      }
+      #ps {
+        margin-bottom: 90px;
+      }
+
+      .b2 {
+        width: 300px;
+        height: 200px;
+        clip-path: circle(50% at 0 37%);
+        background: orange;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+      }
+      .b3 {
+        width: 180px;
+        height: 180px;
+        background: brown;
+        clip-path: polygon(
+          20% 0%,
+          0% 20%,
+          30% 50%,
+          0% 80%,
+          20% 100%,
+          50% 70%,
+          80% 100%,
+          100% 80%,
+          70% 50%,
+          100% 20%,
+          80% 0%,
+          50% 30%
+        );
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        margin-top: -18px;
+      }
+      .b4 {
+        width: 300px;
+        height: 155px;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        background: orange;
+        float: right;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        margin-top: -10px;
+      }
+      .b5 {
+        width: 200px;
+        height: 200px;
+        background: brown;
+        clip-path: polygon(
+          100% 0%,
+          100% 54%,
+          100% 100%,
+          25% 100%,
+          0% 50%,
+          25% 0%
+        );
+        float: right;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="b2"></div>
+    <div class="b5"></div>
+    <div class="b1">
+      <h1>LOGIN</h1>
+      <input
+        type="text"
+        name="email"
+        maxlength="30"
+        placeholder="Email"
+        id="em"
+      />
+      <input
+        type="password"
+        name="password"
+        maxlength="15"
+        placeholder="Password"
+        id="ps"
+      />
+      <button type="button" name="button">Login</button>
+      <p>Not Registerd.? Click Here..!</p>
+    </div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+  </body>
+</html>
